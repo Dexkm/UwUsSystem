@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UwU Cafe - Sistema de Pedidos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Bienvenido a UwU Cafe</h1>
+        <input type="text" id="pedidoInput" placeholder="Escribe un pedido (ejemplo: cat x2 + lay)">
+        <div class="buttons">
+            <button id="btnAgregar">Agregar Pedido</button>
+            <button id="btnBorrar">Borrar Último Pedido</button>
+            <button id="btnFinalizar">Finalizar Pedido</button>
+        </div>
+        <ul id="listaPedidos"></ul>
+        <h2 id="totalLabel">Total: $0</h2>
+        <p id="labelGuia">
+            ℹ Guía: Escribe un pedido (ejemplo: lay x2 + cat x1) y presiona 'Agregar Pedido'. Finaliza para ver el resumen.
+        </p>
+        <button id="btnCopiar" style="display: none;">Copiar al Portapapeles</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

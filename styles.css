@@ -1,0 +1,70 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    background: linear-gradient(to right, #FFDEE9, #B5FFFC);
+    text-align: center;
+    padding: 20px;
+    margin: 0;
+}
+
+#app {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #5F4B8B;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+input, ul {
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 2px solid #F9CADA;
+    border-radius: 10px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #F9CADA;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+button:hover {
+    background-color: #F48FB1;
+}
+
+button:active {
+    background-color: #F06292;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+#totalLabel {
+    color: #5F4B8B;
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#labelGuia {
+    font-family: 'Verdana', sans-serif;
+    font-size: 12px;
+    color: #333;
+}
